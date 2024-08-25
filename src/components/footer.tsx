@@ -71,11 +71,11 @@ export default function Footer() {
             </h3>
             <p className="font-bold text-base text-center">All Right Reserved</p>
           </div>
-          <div className="flex gap-2">
-          <i className='bx bx-sm text-[#06bb60da] bxl-facebook-circle'></i>
-          <i className='bx bx-sm text-[#06bb60da] bxl-instagram'></i>
-          <i className='bx bx-sm text-[#06bb60da] bxl-twitter'></i>
-          <i className='bx bx-sm text-[#06bb60da] bxl-youtube'></i>
+          <div className="flex gap-2 cursor-pointer">
+          <i className='hover:text-green-300 transition duration-300 ease-in-out transform hover:scale-105 bx bx-sm text-[#06bb60da] bxl-facebook-circle'></i>
+          <i className='hover:text-green-300 transition duration-300 ease-in-out transform hover:scale-105 bx bx-sm text-[#06bb60da] bxl-instagram'></i>
+          <i className='hover:text-green-300 transition duration-300 ease-in-out transform hover:scale-105 bx bx-sm text-[#06bb60da] bxl-twitter'></i>
+          <i className='hover:text-green-300 transition duration-300 ease-in-out transform hover:scale-105 bx bx-sm text-[#06bb60da] bxl-youtube'></i>
           </div>
         </div>
       </footer>

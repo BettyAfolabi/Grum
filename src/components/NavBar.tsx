@@ -10,11 +10,11 @@ export default function Navbar() {
             <h1 className="text-2xl text-[#096b3ada] font-bold">Grum</h1>
           </div>
           <div className="flex flex-row gap-2 ">
-            <Link href="/" className="px-2 py-1 text-[#096b3ada] hover:bg-slate-200 focus-within:bg-slate-200 rounded outline-none ">Home</Link>
-            <Link href='/health' className="px-2 py-1 text-[#096b3ada] hover:bg-slate-200 focus-within:bg-slate-200 rounded outline-none ">My Health</Link>
-            <Link href='' className="px-2 py-1 text-[#096b3ada] hover:bg-slate-200 focus-within:bg-slate-200 rounded outline-none ">Books</Link>
-            <Link href='/track' className="px-2 py-1 text-[#096b3ada] hover:bg-slate-200 focus-within:bg-slate-200 rounded outline-none ">Track</Link>
-            <Link className=' text-[#096b3ada] px-2 py-1 rounded hover:bg-slate-200 focus-within:bg-slate-200 outline-none' href='/todo'>Todos</Link>
+            <Link href="/" className="transition duration-300 ease-in-out transform hover:scale-105 px-2 py-1 text-[#096b3ada] hover:bg-slate-200 focus-within:bg-slate-200 rounded outline-none ">Home</Link>
+            <Link href='/health' className="transition duration-300 ease-in-out transform hover:scale-105 px-2 py-1 text-[#096b3ada] hover:bg-slate-200 focus-within:bg-slate-200 rounded outline-none ">My Health</Link>
+            <Link href='' className="transition duration-300 ease-in-out transform hover:scale-105 px-2 py-1 text-[#096b3ada] hover:bg-slate-200 focus-within:bg-slate-200 rounded outline-none ">Books</Link>
+            <Link href='/track' className="transition duration-300 ease-in-out transform hover:scale-105 px-2 py-1 text-[#096b3ada] hover:bg-slate-200 focus-within:bg-slate-200 rounded outline-none ">Track</Link>
+            <Link className='transition duration-300 ease-in-out transform hover:scale-105 text-[#096b3ada] px-2 py-1 rounded hover:bg-slate-200 focus-within:bg-slate-200 outline-none' href='/todo'>Todos</Link>
           </div>
         </div>
     
